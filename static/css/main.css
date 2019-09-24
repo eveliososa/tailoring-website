@@ -1,0 +1,423 @@
+body{
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+
+}
+#appear-nav{
+    display: none;
+}
+.sm-nav-mobile{
+    display: block;
+}
+.sm-nav-links{
+    padding: 2px 3px;
+    margin: 2px 0px;
+    font-family: 'Lato', sans-serif;
+    font-size: 17.5px;
+    text-decoration: none;
+    color: #C3C3C3;
+}
+.sm-nav-links:hover{
+    text-decoration: none;
+    color: #A7A7A7;
+}
+.sm-nav-phone{
+    font-family: 'Lato', sans-serif;
+    padding: 2px;
+    margin: 4px 0px 0px 0px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #8B8B8B;
+}
+.sm-nav-phone:hover{
+    text-decoration: none;
+    color: #8B8B8B;
+}
+.sm-nav-title{
+    text-decoration: none;
+    font-family: 'Sacramento', cursive;
+    margin-top: 6px;
+    font-size: 30px;
+    font-weight: bolder;
+    color: #AD974F;
+    text-shadow: 1px 1px 2px black;
+}
+.sm-nav-title:hover{
+    color: #AD974F;
+    text-decoration: none;
+}
+.sm-nav-bar{
+    background-color: #1C1C1C;
+}
+.icon-button{
+    color: #C3C3C3;
+    font-size: 30px;
+    text-decoration: none;
+}
+.icon-button:hover{
+    color: white;
+    background-color: #383838;
+    outline: none;
+}
+.icon-button:focus{
+    outline: 0;
+}
+.header{
+    display: none;
+}
+.web-gallery{
+    display: none;
+    margin: 50px auto 0px auto;
+}
+.body-slide{
+    display: block;
+    border-radius: 50px;
+    width: 80%;
+    margin: 30px auto;
+}
+footer{
+    height: 75px;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-color: #1C1C1C;
+}
+.footer-title{
+    padding-top: 25px;
+    color: white;
+    font-size: 18px;
+}
+.body-titles{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    padding-top: 50px;
+    font-size: 25px;
+}
+.app-image{
+    margin-top: 50px;
+    width: 100%;
+    height: 300px;
+    background-image: url("/static/images/image6.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 20% 50%;
+}
+.body-map{
+    height: 350px;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+.body-cards{
+    width: 85%;
+    margin: 25px auto;
+}
+.card-title{
+    font-size: 6vw;
+}
+.card-text{
+    font-size: 5vw;
+}
+.card-days{
+    margin-right: -2vw;
+}
+.card-hours{
+    margin-left: -2vw;
+}
+
+
+
+@media (min-width: 300px) {
+    .card-title{
+        font-size: 4.5vw;
+    }
+    .card-text{
+        font-size: 3.5vw;
+    }
+    .card-days{
+        margin-right: -1.3vw;
+    }
+    .card-hours{
+        margin-left: -1.3vw;
+    }
+    .app-image{
+        height: 350px;
+    }
+}
+
+
+@media (min-width: 576px) {
+    .sm-nav-links{
+        padding: 3px 4px;
+        margin: 4px 0px;
+        font-size: 20px;
+    }
+    .sm-nav-phone{
+        padding: 3px;
+        margin: 5px 0px 0px 0px;
+        font-size: 17px;
+    }
+    .sm-nav-title{
+        margin-top: 8px;
+        font-size: 40px;
+        text-shadow: 1.5px 1.5px 4px black;
+    }
+    .icon-button{
+        font-size: 35px;
+    }
+    footer{
+        height: 80px;
+    }
+    .footer-title{
+        padding-top: 25px;
+        color: white;
+        font-size: 22px;
+    }
+    .body-titles{
+        padding-top: 80px;
+        font-size: 30px;
+    }
+    .body-slide{
+        margin: 40px auto;
+    }
+    .app-image{
+        height: 500px
+    }
+    .body-map{
+        height: 400px;
+        width: 100%;
+        margin: 0px;
+    }
+    .body-cards{
+        width: 475px;
+        margin: 25px auto;
+    }
+    .card-title{
+        font-size: 23px;
+    }
+    .card-text{
+        font-size: 16px;
+    }
+    .card-days{
+        margin-right: -6px;
+    }
+    .card-hours{
+        margin-left: -6px;
+    }
+}
+
+
+
+@media (min-width: 768px) {
+    #appear-nav{
+        display: block;
+    }
+    .pop-up-nav-title{
+        text-decoration: none;
+        font-family: 'Sacramento', cursive;
+        margin-left: 40px;
+        margin-top: 10px;
+        font-size: 41px;
+        font-weight: bolder;
+        color: #AD974F;
+        text-shadow: 2px 2px 5px black;
+    }
+    .pop-up-text{
+        margin-top: 8px;
+        margin-left: 10px;
+        padding: 0px;
+        font-family: 'Lato', sans-serif;
+        font-size: 20px;
+        text-decoration: none;
+        color: white;
+    }
+    .pop-up-phone{
+        font-family: 'Lato', sans-serif;
+        margin-top: 4px;
+        margin-left: 10px;
+        font-size: 16px;
+        text-decoration: none;
+        color: #8B8B8B;
+    }
+    .pop-up-phone:hover{
+        text-decoration: none;
+        color: #8B8B8B;
+    }
+    .pop-up-text:hover{
+        text-decoration: none;
+        color: #8B8B8B;
+        border-bottom: solid;
+        border-bottom-color: #8B8B8B;
+        border-bottom-width: 2px;
+    }
+    .pop-up-nav-title:hover{
+        color: #AD974F;
+        text-decoration: none;
+    }
+    .sm-nav-mobile{
+        display: none;
+    }
+    .my-nav{
+        position: fixed;
+        width: 100%;
+    }
+    .hide{
+        display: none;
+    }
+    .show{
+        display: block;
+        z-index: 100;
+    }
+    .pop-up-nav{
+        height: 75px;
+        background-color: #1C1C1C;
+    }
+    .header{
+        display: block;
+        width: 100%;
+        height: 100vh;
+        padding: 0px;
+        margin: 0px;
+        background-image: url("/static/images/background.jpeg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+    }
+    .nav-p{
+        position: absolute;
+        top: 27vh;
+        left: 100px;
+    }
+    .header-title{
+      font-family: 'Sacramento', cursive;
+      font-size: 85px;
+      font-weight: 700;
+      color: #AD974F;
+      text-shadow: 2px 2px 5px black;
+    }
+    nav-list{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width: 400px;
+    }
+    .nav-font{
+        font-size: 35px;
+        display: block;
+        margin: 0px;
+        padding: 5px 10px;
+        text-decoration: none;
+    }
+    .nav-font a{
+        color: white;
+        font-family: 'Lato', sans-serif;
+        text-shadow: 2px 2px 2px black;
+    }
+    .nav-font a:hover{
+        text-decoration: none;
+        font-size: 35.5px;
+        color: #DFDFDF;
+    }
+    .header-phone{
+        font-family: 'Lato', sans-serif;
+        position: absolute;
+        top: 10vh;
+        right: 7.5vw;
+        color: #DFDFDF;
+        text-shadow: 2px 2px 2px black;
+        font-size: 30px;
+    }
+    .web-gal:hover{
+        transform: scale(1.1);
+        transition-duration: .5s;
+    }
+    .web-gallery{
+        display: block;
+    }
+    .body-slide{
+        display: none;
+    }
+    footer{
+        height: 90px;
+    }
+    .footer-title{
+        padding-top: 30px;
+        color: white;
+        font-size: 23px;
+    }
+    .body-titles{
+        padding-top: 100px;
+        font-size: 35px;
+    }
+    .app-image{
+        display: none;
+    }
+    .body-map{
+        height: 500px;
+        width: 95%;
+        margin: 50px 2.5%;
+        padding: 0px;
+    }
+        .body-cards{
+        width: 600px;
+        margin: 25px auto;
+    }
+    .card-title{
+        font-size: 25px;
+    }
+    .card-text{
+        font-size: 18px;
+    }
+    .card-days{
+        margin-right: -6px;
+    }
+    .card-hours{
+        margin-left: -6px;
+    }
+}
+
+
+
+@media (min-width: 992px) {
+    .pop-up-nav-title{
+        font-size: 45px;
+    }
+    .pop-up-text{
+        font-size: 22px;
+    }
+    .pop-up-phone{
+        font-size: 18px;
+    }
+    .pop-up-nav{
+        height: 80px;
+    }
+    .body-titles{
+        padding-top: 110px;
+        font-size: 40px;
+    }
+    .web-gallery{
+        margin: 70px auto 0px auto;
+    }
+    .body-map{
+        height: 600px;
+        width: 90%;
+        margin: 60px 5%;
+        padding: 0px;
+    }
+    .body-card-one{
+        margin-top: 60px;
+    }
+}
+
+
+
+@media (min-width: 1200px) {
+    .body-titles{
+        padding-top: 130px;
+        font-size: 45px;
+    }
+    .web-gallery{
+        margin: 80px auto 0px auto;
+    }
+}
